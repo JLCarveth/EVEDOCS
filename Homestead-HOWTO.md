@@ -9,7 +9,7 @@
 
 1. Choose a virtualization provider (VMWare, VirtualBox, Parallels, etc). I chose VirtualBox, any version later than 6 should do. 
 2. Install [Vagrant](https://www.vagrantup.com/downloads.html)
-
+   and run the following command: `vagrant box add laravel/homestead`
 3. Install Homestead. Make a directory in your user file *`C:/Users/*YOUR_USER*/`* named 'Homestead', and clone the git repository:
 
         git clone https://github.com/laravel/homestead.git ~/Homestead
